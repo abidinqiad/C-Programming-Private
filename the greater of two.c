@@ -1,23 +1,28 @@
 #include<stdio.h>
 
- int main(){
+int main()
+{
 
-   int a, b;
+    int a, b;
 
-    scanf("%d%d",&a,&b);
-    //scanf("%d",&b);
+    printf("Please enter first number: ");
+    scanf("%d",&a);
+    printf("Please enter second number: ");
+    scanf("%d",&b);
 
-   if (a>b){
-    printf("%d is greater than %d",a,b);
-   }
+    if (a>b)
+    {
+        printf("%d is greater than %d",a,b);
+    }
 
-   else{
-    printf("%d is greater than %d",b,a);
-   }
+    else
+    {
+        printf("%d is greater than %d",b,a);
+    }
 
 
 
 
 
- return 0;
- }
+    return 0;
+}
